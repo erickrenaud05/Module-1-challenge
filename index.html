@@ -17,8 +17,8 @@
 <body>
 
     <!-- Changed from <div class="header"> to a semantic div tag named header -->
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header>
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <!-- Changed from div to a semantic div named nav -->
         <!-- Note that this will affect the css -->
         <nav>
@@ -39,13 +39,13 @@
     <!-- ask during office hours if img should be shown here or css -->
     <!-- did ask and due to it being a background image, I belive it is 
          reasonable to have the image linked through css with no alt text. -->
-    <div class="hero"></div>
+    <div id="background-img"></div>
     <!-- changing div to main due to this section seeming to be where the most important content is-->
     
-    <main class="content">
+    <main>
         <!-- Added id to let the nav bar function -->
         <!-- changing all div to section -->
-        <section id="search-engine-optimization" class="search-engine-optimization">
+        <section id="search-engine-optimization">
             <!-- adding alt text to images -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A laptop, notebook, coffee, and other tools useful for coding sat atop of a wooden table"/>
             <h2>Search Engine Optimization</h2>
@@ -53,14 +53,14 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management" >
+        <section id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Someone using his cellphone and laptop viewing a reputation graph."/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left"  alt="A group of people using social marketing technologies" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -71,23 +71,23 @@
 
     <!-- changing div to aside due to this content being to the side of main and used more as extra information
          rather than the main information -->
-    <aside class="benefits">
+    <aside>
         <!-- changing these divs to section -->
-        <section class="benefit-lead">
+        <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="A png of half a gear connected to a funnel with an arrow leading towards a money symbol." />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <section>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="A toxito with a lightbulb emitting sound waves as a head "/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <section>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="A gear with three money symbols around it."></img>
             <p>
@@ -97,7 +97,7 @@
     </aside>
 
     <!-- changing div to footer -->
-    <footer class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
