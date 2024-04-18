@@ -5,13 +5,17 @@
     <meta charset="UTF-8" />
     <!-- Added meta for viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- changing website title -->
-    <title>Horiseon</title>
+    <!-- Changed the website title from horiseon, to the following to promote a better
+         description of what horiseon is, while also giving more keywords for seo -->
+    <!-- Did research and according to multiple searches, the title should stay between 50-60
+         characters-->
+    <title>Horiseon: Essential Tips to Boost Your Website Performance</title>
     <!-- Simply moved the link line for the meta tags to be together -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+
     <!-- Changed from <div class="header"> to a semantic div tag named header -->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -31,9 +35,13 @@
             </ul>
         </nav>
     </header>
+
     <!-- ask during office hours if img should be shown here or css -->
+    <!-- did ask and due to it being a background image, I belive it is 
+         reasonable to have the image linked through css with no alt text. -->
     <div class="hero"></div>
-    <!-- changing div to main -->
+    <!-- changing div to main due to this section seeming to be where the most important content is-->
+    
     <main class="content">
         <!-- Added id to let the nav bar function -->
         <!-- changing all div to section -->
@@ -53,14 +61,16 @@
             </p>
         </section>
         <section id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left"  alt="A group of people using technology around a table filled with images of different apps." />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left"  alt="A group of people using social marketing technologies" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </section>
+        </section>       
     </main>
-    <!-- changing div to aside -->
+
+    <!-- changing div to aside due to this content being to the side of main and used more as extra information
+         rather than the main information -->
     <aside class="benefits">
         <!-- changing these divs to section -->
         <section class="benefit-lead">
@@ -72,7 +82,7 @@
         </section>
         <section class="benefit-brand">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt="A toxito with, a lightbulb with sound waves coming out as a head."/>
+            <img src="./assets/images/brand-awareness.png" alt="A toxito with a lightbulb emitting sound waves as a head "/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
@@ -85,6 +95,7 @@
             </p>
         </section>
     </aside>
+
     <!-- changing div to footer -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -92,6 +103,8 @@
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+
+    <!-- All the semantic div changes not only help screenreaders, but also helo with seo -->
 </body>
 
 </html>
